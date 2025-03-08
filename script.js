@@ -2,7 +2,7 @@ const GetGridSizeButton = document.getElementById('get-input-button')
 const gridContainer = document.getElementById('grid-container')
 
 let gridSize = 16
-let width = ((1/16) * 100) - 1
+let width = ((1/16) * 100)
 
 GetGridSizeButton.addEventListener('click', getGridSize)
 
@@ -22,7 +22,7 @@ function getGridSize() {
             break
         }
     }
-    width = ((1/gridSize) * 100) - 1
+    width = ((1/gridSize) * 100) 
     gridContainer.innerHTML = ""
     for (i = 0; i < gridSize*gridSize; i++) {
         let gridBlock = document.createElement('div')

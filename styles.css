@@ -23,14 +23,12 @@
     flex-wrap: wrap;
     justify-content: center;
     justify-self: center;
-    height: 50%;
-    width: 50%;
+    height: 47%;
+    width: 47%;
+    border: 2px solid;
 }
 
 .box {
-    background-color: rgb(0, 0, 0);
-    width: 24%;
+    background-color: rgb(198, 198, 198);
     height: 0px;
-    padding-bottom: 25%;
-    margin: 2px;
 }
